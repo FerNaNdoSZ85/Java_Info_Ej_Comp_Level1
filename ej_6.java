@@ -9,15 +9,11 @@ public class ej_6 {
         int potencia = 1;
         if (base == 0) {
         System.out.println(base+ " elevado a " + exponente + "= 0");}
-    else if (exponente == 0) {
+        else if (exponente == 0) {
         System.out.println(base + " elevado a " + exponente + "= 1");
-    }
-    else {
+        }
+        else {
         for (int i = 1; i <= exponente; i++){
             potencia = potencia* base;}
             System.out.println(base + " elevado a " + exponente + " = " + potencia);
-    }
-
-    }
-                
-            }
+        }}}
